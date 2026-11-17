@@ -1,0 +1,8 @@
+{
+  "name": "Deye Dummy Cloud",
+  "description": "Local replacement for the Deye/Solarman cloud: microinverter loggers push data over plain TCP, published to MQTT with Home Assistant discovery.",
+  "url": "https://github.com/jekkos/deye-dummycloud",
+  "repository": "https://github.com/jekkos/deye-dummycloud",
+  "branch": "main",
+  "filename": "config.json"
+}
