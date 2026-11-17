@@ -32,17 +32,17 @@ packaged as a Home Assistant add-on.
 
 1. Open HACS → Add-ons → Repositories
 2. Click **Add Repository**
-3. Paste: `https://github.com/jekkos/deye-dummycloud`
+3. Paste: `https://github.com/jekkos/deye-dummycloud-ha`
 4. Click **Add**
-5. Find **Deye Dummy Cloud** and click **Install**
+5. Find **Deye Dummy Cloud (HA)** and click **Install**
 
 ### Custom Repository
 
 1. Go to: **Settings → Apps → App Store → Repositories**
 2. Click **Add Repository**
-3. Paste: `https://github.com/jekkos/deye-dummycloud`
+3. Paste: `https://github.com/jekkos/deye-dummycloud-ha`
 4. Click **Add**
-5. Find **Deye Dummy Cloud** and click **Install**
+5. Find **Deye Dummy Cloud (HA)** and click **Install**
 
 ## Inverter setup
 
@@ -151,18 +151,18 @@ DEYE_NODE_DIR=/tmp/deye-cloud/dummycloud .venv/bin/python -m pytest tests/test_c
 
 ### Build locally
 ```bash
-docker build -t deye-dummycloud .
+docker build -t deye-dummycloud-ha .
 ```
 
 ### Run locally
 ```bash
-docker run -d --name deye-dummycloud \
+docker run -d --name deye-dummycloud-ha \
   --network host \
   -e MQTT_HOST=your-broker \
   -e MQTT_USERNAME=your-username \
   -e MQTT_PASSWORD=your-password \
   -e LISTEN_PORT=10000 \
-  deye-dummycloud
+  deye-dummycloud-ha
 ```
 
 ## License

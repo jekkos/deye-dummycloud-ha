@@ -1,5 +1,5 @@
 #!/bin/bash
-# Run the deye-dummycloud server locally (outside of HA) with default settings.
+# Run the deye-dummycloud-ha server locally (outside of HA) with default settings.
 #
 # Example:
 #   MQTT_HOST=localhost LISTEN_PORT=10000 ./scripts/run_local.sh

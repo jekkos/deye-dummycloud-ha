@@ -1,9 +1,9 @@
 {
-  "name": "Deye Dummy Cloud",
+  "name": "Deye Dummy Cloud (HA)",
   "version": "0.1.0",
-  "slug": "deye-dummycloud",
+  "slug": "deye-dummycloud-ha",
   "description": "Local replacement for the Deye/Solarman cloud: microinverter loggers push data over plain TCP, published to MQTT with Home Assistant discovery.",
-  "url": "https://github.com/jekkos/deye-dummycloud",
+  "url": "https://github.com/jekkos/deye-dummycloud-ha",
   "arch": ["armv7", "armhf", "aarch64", "amd64"],
   "startup": "services",
   "boot": "auto",
